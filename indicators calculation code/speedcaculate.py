@@ -12,8 +12,7 @@ def cacuspeed(dir_path, load_path):
     walk_ = []
     time_ = []
 
-    # dir_path = 'F:/openpose_output/b_100112_yt_02'
-    # load_path = os.path.join(dir_path, '100112_yt_02.pkl')
+
     with open(load_path, 'rb') as f:
         data = pickle.load(f)
     l = len(data)
