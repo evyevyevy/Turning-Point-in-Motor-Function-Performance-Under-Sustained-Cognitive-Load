@@ -291,7 +291,7 @@ after_3 = stride_sort_3[(stride_sort_3['rate_rolling'] >= 0.044140670424346704) 
 #after_2 = stride_sort_2[(stride_sort_2['rate_rolling'] >= -0.013) & (stride_sort_2['rate_rolling'] <= 0.0783)]
 #after_3 = stride_sort_3[(stride_sort_3['rate_rolling'] >= 0.0783) & (stride_sort_1['rate_rolling'] <= 0.151)]
 
-# 计算置信区间
+
 def compute_confidence_interval(x, y, slope, intercept, confidence=0.95):
     y_pred = slope * x + intercept
     residuals = y - y_pred
